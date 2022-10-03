@@ -1,0 +1,83 @@
+/* universal properties */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.header-nav {
+    background-color: rgb(217, 217, 217);
+    border-bottom:8px solid rgb(255, 122, 0);
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header-nav-item {
+    display: inline-block;
+    margin-left: 3.8%;
+    text-align: center;
+    font-size: 30px;
+}
+
+span {
+    margin-left: 3.8%;
+}
+
+.hero-content {
+    position: relative;
+    
+    width: 100%;
+    display: flex;
+  flex-wrap: wrap;
+}
+
+#hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/Untitled_Artwork.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+
+/* make size 60 when window smallest */
+/* make top only 10 when largest screen */
+.hero-content h1 {
+    position: absolute;
+    width: 100%;
+    top: 44px;
+    box-sizing: border-box;
+    color: rgb(82, 193,255);
+    margin: 0;
+    display: flex;
+   justify-content: center;
+}
+
+.hero-content span {
+    margin-left: 20%;
+}
+
+main{
+    padding-top: 800px;
+}
+
+footer {
+    box-sizing: border-box;
+    background: rgb(82, 193,255);
+    width: 100%;
+    padding:20px;
+    text-align: center;
+    position: absolute;
+   
+}
+ 
